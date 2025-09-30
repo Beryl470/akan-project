@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 124, 174);
+    color: black;
+    line-height: 2.1;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+form {
+    background: rgb(252, 9, 49);
+    padding: 20px;
+    border-radius: 20px;
+    width: 320px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-bottom: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+form input,
+form select,
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1rem; 
+}
+
+form button {
+    background: beige;
+    color: brown;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: black;
+}
+
+section {
+    margin-top: 20px;
+}
+
+#akan-name {
+    font-size: large;
+    font-weight: bold;
+    color: blue;
+}
